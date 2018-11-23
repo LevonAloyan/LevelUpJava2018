@@ -7,9 +7,12 @@ public class Main {
         Box box1 = new Box("Box1",4,5,-1);
         Box box2 = new Box("Box2",10,1,2);
         Box box3 = new Box("Box2",10,1,2);
+        Box box4 = new Box("Box2",10,1,2);
 
         box1.countVolume();
         box2.countVolume();
+        box3.countVolume();
+        box4.countVolume();
 
         //box1.setWidth(1);
         //box2.setWidth(0);
