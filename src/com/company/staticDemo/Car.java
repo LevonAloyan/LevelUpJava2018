@@ -2,7 +2,7 @@ package com.company.staticDemo;
 
 import java.util.Date;
 
-import sun.security.jca.GetInstance.Instance;
+//import sun.security.jca.GetInstance.Instance;
 
 public class Car {
 
