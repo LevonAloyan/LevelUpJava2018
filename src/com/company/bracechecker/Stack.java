@@ -1,4 +1,4 @@
-package com.company.stack;
+package com.company.bracechecker;
 
 public class Stack {
 
