@@ -9,6 +9,8 @@ public class Main {
         Box box3 = new Box("Box2",10,1,2);
         Box box4 = new Box("Box2",10,1,2);
         Box box458 = new Box("Box2",10,1,2);
+        Box box45 = new Box("Box2",10,1,2);
+        Box box48 = new Box("Box2",10,1,2);
 
         box1.countVolume();
         box2.countVolume();
