@@ -47,7 +47,7 @@ public class BraceCheckerFrame extends JFrame {
     add(scrollPane, BorderLayout.CENTER);
     add(messagePanel, BorderLayout.SOUTH);
 
-    setLocation(100, 100);
+    setLocation(700,300);
     setSize(500, 400);
     setVisible(true);
 //        setResizable(false);
