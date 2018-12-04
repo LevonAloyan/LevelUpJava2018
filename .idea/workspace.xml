@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b51921e0-e22b-421d-857d-f7fd3b654deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/armen/bracechecker.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/armen/figure.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/auditorium/bracechecker.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,30 +22,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="1" />
+          <entry key="git.branch.checkout.local" value="2" />
           <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="31" />
-          <entry key="txt" value="14" />
+          <entry key="java" value="33" />
+          <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="31" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="JAVA" value="33" />
+          <entry key="PLAIN_TEXT" value="29" />
         </counts>
       </usages-collector>
     </session>
@@ -58,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/armen/bracechecker/BraceCheckerFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="306">
               <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
             </state>
           </provider>
@@ -67,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/homeworks/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="442">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -79,7 +76,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Ashot_homework01" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -87,6 +84,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Cup.java" />
+        <option value="$PROJECT_DIR$/src/com/company/homeworks/Main.java" />
       </list>
     </option>
   </component>
@@ -96,12 +94,12 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,10 +138,11 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542961799435" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543908451271" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -163,8 +162,11 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/company/ArrayTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/company/homeworks/Main.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/bracechecker/BraceCheckerTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/auditorium/bracechecker/BraceCheckerFrame.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/auditorium/bracechecker/BraceCheckerTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/company/stack/Stack.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -172,226 +174,22 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/LevelUpJava.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/encodings.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/modules.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/bracechecker/BraceCheckerFrame$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/bracechecker/BraceCheckerFrame.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/bracechecker/Stack.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/bracechecker/StackImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/exceptions/ExceptionDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/exceptions/NotFoundException.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/exceptions/UserNotFoundException.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/figure/Circle.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/figure/Main.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/figure/Rectangle.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/figure/Shape.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/figure/Triangle.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/finaltest/Child.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/finaltest/FinalTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/finaltest/Test.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/io/Car.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/io/Coma.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/io/CountDirFiles.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/io/IoDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/io/MergSort.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/io/Numbers.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/io/ReadPrimAndObjects$Car.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/io/ReadPrimAndObjects.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/io/ReadWriteObject.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/mathutil/RecursiaTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/mathutil/Test.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/recursion/Test.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/stringdemo/StringTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/armen/stringdemo/StringUtil.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/array/ArrayDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/array/ArrayUtil.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/array/ArrayUtilTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/array/ControlStatements.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/array/TwoDimentionalArrayDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/bracechecker/BraceChecker$BracketItem.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/bracechecker/BraceChecker.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/bracechecker/BraceCheckerFrame$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/bracechecker/BraceCheckerFrame.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/bracechecker/BraceCheckerTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/bracechecker/Stack.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/bracechecker/StackImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/classintro/A.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/classintro/Aa.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/classintro/B.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/classintro/HashCodeChecker.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/classintro/Rectangle.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/classintro/RectangleTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/classintro/figureexception/RectangleNegativeBorderException.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/draft/A.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/draft/Draft.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/draft/ReferenceAndPrimitiveTypes.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/draft/StringLiteralDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/draft/Test.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/draft/singletone/SingleTon$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/draft/singletone/SingleTon$InstanceFactory.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/draft/singletone/SingleTon$SomeInner.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/draft/singletone/SingleTon.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/draft/singletone/SingleToneTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/draft/singletone/SingleToneTester.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/draft/syncdemo/Caller.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/draft/syncdemo/Worker.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/dynamicarray/DynamicArray.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/dynamicarray/DynamicArrayImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/dynamicarray/DynamicArrayTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/dynamicarray/onlyforinteger/DynamicArray.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/dynamicarray/onlyforinteger/DynamicArrayImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/exception/ExceptionDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/exception/FinallyDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/exception/Throwable_I$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/exception/Throwable_I$PrintStreamOrWriter.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/exception/Throwable_I$SentinelHolder.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/exception/Throwable_I$WrappedPrintStream.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/exception/Throwable_I$WrappedPrintWriter.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/exception/Throwable_I.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/figure/Circle.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/figure/Figure.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/figure/FigureCanvas$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/figure/FigureCanvas$2.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/figure/FigureCanvas.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/figure/FigureFrame$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/figure/FigureFrame$2.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/figure/FigureFrame$3.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/figure/FigureFrame$4.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/figure/FigureFrame$5.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/figure/FigureFrame$6.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/figure/FigureFrame.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/figure/FigureTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/figure/Rectangle.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/inheritance/A.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/inheritance/AA.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/inheritance/B.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/inheritance/BB.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/inheritance/InheritanceDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/inheritance/MethodOverrideDemo$C.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/inheritance/MethodOverrideDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/interfaces/I.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/interfaces/IChild.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/interfaces/IChildImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/interfaces/InterfaceDemo$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/interfaces/InterfaceDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/io/FileDemo$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/io/FileDemo$2.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/io/FileDemo$3.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/io/FileDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/io/FileIOStreamDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/io/MyClass.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/io/PushBackDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/io/SerializationDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/lesson1/AnotherClass.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/lesson1/DataTypesDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/lesson1/SecondClass.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/Circle.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/Figure.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureCanvas$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureCanvas$2.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureCanvas.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureFrame$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureFrame$2.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureFrame$3.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureFrame.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/Rectangle.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/A.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/B.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/Caller.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/Callme.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/Clicker.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/Consumer.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/Deadlock.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/HiLowPriority.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/InheritedThread.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/ProdCons.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/Producer.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/Q.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/SomeClass.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/SomeRunnable.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/SynchDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/multithreading/ThreadDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/notepad/Notepad.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/operator/BitwiseOperatorDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/p1/A.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/p1/B.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/p1/Test1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/p1/Test11.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/p2/Test2.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/recursion/HanoiTower.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/taskstodo/ArrayShiftingTask.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/taskstodo/TextAnalyzer.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/taskstodo/dynamicarray/DynamicArray.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/taskstodo/figureprinter/FigurePainter.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/taskstodo/task_I/bracecheker/BraceChecker$BracketItem.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/taskstodo/task_I/bracecheker/BraceChecker.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/taskstodo/task_I/bracecheker/Stack.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/taskstodo/task_II/util/ArrayUtil.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/taskstodo/task_II/util/ArrayUtilTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/taskstodo/task_III/StringUtil.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/taskstodo/task_III/StringUtilTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/LabelKey$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/LabelKey.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/LanguageType.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$2.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$3.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$4.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$5.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$6.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$7.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$8.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$ActionType.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/UnderlineHighlighter$UnderlineHighlightPainter.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/UnderlineHighlighter.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/util/Spiral.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/auditorium/util/StringUtil.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/ArrayTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/Bmw.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/Car.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/CoffeeCup.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/Cup.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/CupTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/Main.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/Merserdes.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/Test.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/arrayutil/ArrayTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/arrayutil/ArrayUtil.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/classintro/Figure.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/classintro/Rectangle.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/classintro/Square.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/classintro/Test.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/git/GitTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/homeworks/AnotherClass.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/homeworks/Box.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/homeworks/Main.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/homeworks/StringUtil1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/objectmethods/A.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/objectmethods/B.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/objectmethods/C.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/objectmethods/ObjectDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/objectmethods/User.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/overridedemo/Animal.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/overridedemo/Dog.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/overridedemo/TestOverride.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/polimorphism/Rectangle.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/polimorphism/Shape.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/polimorphism/Square.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/polimorphism/Test.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/staticDemo/Car.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/staticDemo/CarTests.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/stringdemo/StringDemo.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/stringdemo/StringUtil.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/test/Cup.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/equalshashcode/Employee.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/equalshashcode/Main.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/equalshashcode/Test.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/company/git/GitTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/META-INF/LevelUpJava.kotlin_module</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/bracechecker/BraceCheckerFrame$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/bracechecker/BraceCheckerFrame.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/bracechecker/BracecheckerTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/homeworks/Aram/Main.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/homeworks/Aram/SimpleGui$ButtonEventListener.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/homeworks/Aram/SimpleGui.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/stack/Stack.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/com/company/stack/StackTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/company/bracechecker/BraceChecker.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/company/bracechecker/BraceCheckerFrame.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/company/bracechecker/BraceCheckerItem.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/company/bracechecker/BracecheckerTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/company/bracechecker/Stack.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/company/homeworks/Aram/Main.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/company/homeworks/Aram/SimpleGui.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -534,21 +332,26 @@
       <option name="project" value="LOCAL" />
       <updated>1542960532822</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add new objects">
+      <created>1543908416137</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543908416137</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
@@ -559,6 +362,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32925472" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -600,7 +404,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aavelachrel em" />
-    <option name="LAST_COMMIT_MESSAGE" value="aavelachrel em" />
+    <MESSAGE value="Add new objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new objects" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Cup.java">
@@ -610,17 +415,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/bracechecker/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/armen/bracechecker/BraceCheckerFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
+        <state relative-caret-position="306">
           <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/homeworks/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
