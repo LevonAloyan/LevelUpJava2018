@@ -10,12 +10,13 @@ public class BraceCheckerFrame extends JFrame {
     private JButton button = new JButton("Parse");
     private JTextArea textArea = new JTextArea();
     private JTextField textField = new JTextField();
+    private BraceChecker braceChecker = new BraceChecker();
 
     BraceCheckerFrame() {
         JPanel controlPanel = new JPanel();
         JScrollPane scrollPane = new JScrollPane();
         JPanel messagePanel = new JPanel();
-        textField.setFont(new Font(Font.MONOSPACED,Font.BOLD,32));
+        textField.setFont(new Font(Font.MONOSPACED,Font.BOLD,20));
         textField.setForeground(Color.RED);
 
         button.addActionListener(new ActionListener() {
@@ -48,7 +49,12 @@ public class BraceCheckerFrame extends JFrame {
     }
 
     private void parseActionPerformed(){
-        textField.setText(getText());
-        textArea.setText("");
+        boolean parseSuccessful = braceChecker.isParseSuccessful(getText());
+        if(parseSuccessful){
+            textField.setForeground(Color.BLUE);
+            textField.setText("NO ERROR");
+        }else {
+            textField.setText(braceChecker.getErrorMessage());
+        }
     }
 }
