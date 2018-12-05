@@ -2,12 +2,9 @@ package com.company.bracechecker;
 
 public class BraceChecker {
     private BraceCheckerItem braceCheckerItem;
-    private Stack stack = new Stack();
+    private StackImpl stackImpl = new StackImpl();
     private String errorMessage;
-
-    public BraceChecker(BraceCheckerItem braceCheckerItem) {
-        this.braceCheckerItem = braceCheckerItem;
-    }
+    private boolean parsSuccess = true;
 
 
     public boolean isParseSuccessful(String inputText) {
@@ -22,28 +19,51 @@ public class BraceChecker {
                     numberInLine = 0;
                     break;
                 case '(':
-                    stack.push(new BraceCheckerItem(i, lineNumber, numberInLine, '('));
+                    stackImpl.push(new BraceCheckerItem(i, lineNumber, numberInLine, '('));
                     break;
                 case '{':
-                    stack.push(new BraceCheckerItem(i, lineNumber, numberInLine, '{'));
+                    stackImpl.push(new BraceCheckerItem(i, lineNumber, numberInLine, '{'));
                     break;
                 case '[':
-                    stack.push(new BraceCheckerItem(i, lineNumber, numberInLine, '['));
+                    stackImpl.push(new BraceCheckerItem(i, lineNumber, numberInLine, '['));
                     break;
                 case ')':
-                    BraceCheckerItem lastElement = (BraceCheckerItem) stack.pop();
-                    if (stack.isEmpty()) {
+                    BraceCheckerItem lastElement = null;
+                    if (!stackImpl.isEmpty()) {
+                        lastElement = (BraceCheckerItem) stackImpl.pop();
+                    }
+                    if (stackImpl.isEmpty()) {
                         errorMessage = "Closed " + new BraceCheckerItem(i, lineNumber, numberInLine, ')') + "but not opened";
+                        parsSuccess = false;
                     } else if (lastElement.getValue() != '(') {
                         errorMessage = "Opened " + lastElement + " but closed " + new BraceCheckerItem(i, lineNumber, numberInLine, ')');
+                        parsSuccess = false;
                     }
-
-
             }
         }
 
-        return false;
+        if (!stackImpl.isEmpty()) {
+            BraceCheckerItem element = (BraceCheckerItem) stackImpl.pop();
+            errorMessage = "Opened " + element + " but not closed";
+            parsSuccess = false;
+        }
+        return parsSuccess;
     }
 
 
+    public String getErrorMessage() {
+        return errorMessage;
+    }
+
+    public void setErrorMessage(String errorMessage) {
+        this.errorMessage = errorMessage;
+    }
+
+    public boolean isParsSuccess() {
+        return parsSuccess;
+    }
+
+    public void setParsSuccess(boolean parsSuccess) {
+        this.parsSuccess = parsSuccess;
+    }
 }
