@@ -11,15 +11,13 @@ public class Car {
   private int wheelCount;
   private boolean isAutomatic;
 
-  private static final int carCount;
+  private static int carCount;
 
-  static {
-    carCount = 5;
-  }
+
 
   public Car() {
     wheelCount = 5;
-//    carCount++;
+    carCount++;
   }
 
   public Car(String model, int wheelCount, boolean isAutomatic) {
