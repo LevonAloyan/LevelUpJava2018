@@ -7,3 +7,4 @@
 *.orig
 target/*
 */test-output/*
+out/*
