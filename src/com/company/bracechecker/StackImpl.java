@@ -1,26 +1,26 @@
 package com.company.bracechecker;
 
-public class StackImplement implements Stack{
+public class StackImpl<T> implements Stack<T>{
 
 
         private static final int DEFAULT_CAPACITY = 16;
         private Object [] array;
         private int tos = -1;
 
-        public StackImplement() {
+        public StackImpl() {
             array = new Object[DEFAULT_CAPACITY];
         }
 
 
-        public Object pop() {
+        public T pop() {
             if (isEmpty()) {
-                return 0;
+                return null;
             }
-            return array[tos--];
+            return (T) array[tos--];
         }
 
 
-    public void push(Object element) {
+    public void push(T element) {
             if (tos >= array.length - 1) {
                 extend();
             }
