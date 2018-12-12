@@ -63,17 +63,18 @@ public class BraceChecker {
             }
         }
 
-        if (lastElement == null) {
-            errorMessage = "Closed with " + currentItem + "but not opened";
-            parsSuccess = false;
-        } else {
-            errorMessage = "Opened with " + lastElement + " but closed with " + currentItem + "'";
-            parsSuccess = false;
-        }
-        if (!stack.isEmpty()) {
-            BraceCheckerItem element = (BraceCheckerItem) stack.pop();
-            errorMessage = "Opened with " + element + " but not closed";
-            parsSuccess = false;
+                if (lastElement == null) {
+                    errorMessage = "Closed with " + currentItem + "but not opened";
+                    parsSuccess = false;
+                } else {
+                    errorMessage = "Opened with " + lastElement + " but closed with " + currentItem + "'";
+                    parsSuccess = false;
+                }
+
+                if (!stack.isEmpty()) {
+                BraceCheckerItem element = (BraceCheckerItem) stack.pop();
+                errorMessage = "Opened with " + element + " but not closed";
+                parsSuccess = false;
         }
         return parsSuccess;
     }
