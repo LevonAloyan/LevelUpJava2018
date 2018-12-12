@@ -1,4 +1,4 @@
-package com.company.onlyforinteger;
+package com.company.dynamicarray;
 
 public class DynamicArrayTest {
 

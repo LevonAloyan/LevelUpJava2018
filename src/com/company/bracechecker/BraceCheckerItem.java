@@ -49,11 +49,9 @@ public class BraceCheckerItem {
 
     @Override
     public String toString() {
-        return "BraceCheckerItem{" +
-                "index=" + index +
+        return  "value=" + '\''+value +'\''+
+                ", index=" + index +
                 ", lineNumber=" + lineNumber +
-                ", numberInLine=" + numberInLine +
-                ", value=" + value +
-                '}';
+                ", numberInLine=" + numberInLine;
     }
 }

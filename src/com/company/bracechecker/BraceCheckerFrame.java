@@ -60,7 +60,7 @@ public class BraceCheckerFrame extends JFrame {
 
     private void parseActionPerformed() {
 
-        boolean parseSuccessful = braceChecker.parser(textArea.getText());
+        boolean parseSuccessful = braceChecker.parse(textArea.getText());
         String message = braceChecker.getErrorMessage();
         if (parseSuccessful) {
             this.messageField.setForeground(Color.BLUE);

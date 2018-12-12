@@ -1,4 +1,4 @@
-package com.company.onlyforinteger;
+package com.company.dynamicarray;
 
 public class DynamicArrayImpl implements DynamicArray {
     private static final int DEFAULT_CAPACITY = 16;
