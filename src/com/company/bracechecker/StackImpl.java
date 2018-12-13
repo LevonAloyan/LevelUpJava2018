@@ -1,6 +1,6 @@
 package com.company.bracechecker;
 
-public class StackImpl implements Stack {
+public class StackImpl {
 
     private static final int DEFAULT_CAPACITY = 16;
     private Object[] array;
@@ -10,7 +10,7 @@ public class StackImpl implements Stack {
         array = new Object[DEFAULT_CAPACITY];
     }
 
-    @Override
+
     public Object pop() {
         if (isEmpty()) {
             return 0;
@@ -18,7 +18,7 @@ public class StackImpl implements Stack {
         return array[tos--];
     }
 
-    @Override
+
     public void push(Object element) {
         if (tos >= array.length - 1) {
             extend();
