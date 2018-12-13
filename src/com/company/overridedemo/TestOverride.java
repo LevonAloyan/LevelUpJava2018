@@ -3,16 +3,14 @@ package com.company.overridedemo;
 public class TestOverride {
 
   public static void main(String[] args) {
-    Animal animal = new Dog();
+
+    Dog animal = new Dog();
+
     animal.move();
-
-    Dog dog = new Dog();
-
-    dog.move(5,6);
+    animal.move(5,4);
 
 
 
-    Animal animal1 = new Animal();
 
   }
 

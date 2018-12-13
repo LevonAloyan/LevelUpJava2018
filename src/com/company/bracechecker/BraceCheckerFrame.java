@@ -7,68 +7,54 @@ import java.awt.event.ActionListener;
 
 public class BraceCheckerFrame extends JFrame {
 
-    private int frameWidth = 750;
-    private int frameHeight = 500;
+    private JButton button = new JButton("Parse");
+    private JTextArea textArea = new JTextArea();
+    private JTextField textField = new JTextField();
     private BraceChecker braceChecker = new BraceChecker();
 
-    JFrame braceFrame = new JFrame("Brace Checker Program");
+    BraceCheckerFrame() {
+        JPanel controlPanel = new JPanel();
+        JScrollPane scrollPane = new JScrollPane();
+        JPanel messagePanel = new JPanel();
+        textField.setFont(new Font(Font.MONOSPACED,Font.BOLD,20));
+        textField.setForeground(Color.RED);
 
-    JPanel messagePanel = new JPanel();
-    JPanel controlPanel = new JPanel();
-    JTextArea textArea = new JTextArea();
-    JTextField messageField = new JTextField();
-    JScrollPane scrollPane = new JScrollPane();
-
-    JButton parseButton = new JButton("Parse");
-
-    public BraceCheckerFrame() {
-        initComponents();
-    }
-
-    public void initComponents() {
-
-        parseButton.addActionListener(new ActionListener() {
+        button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 parseActionPerformed();
             }
         });
 
-        braceFrame.setSize(frameWidth, frameHeight);
-        braceFrame.setResizable(true);
-        braceFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        controlPanel.add(button);
 
-        controlPanel.add(parseButton);
-        messagePanel.setLayout(new GridLayout(1, 1));
 
-        messageField.setFont(messageField.getFont().deriveFont(Font.BOLD, 14));
-        messageField.setForeground(Color.BLUE);
+        scrollPane.add(textArea);
+        messagePanel.add(textField);
 
-        messagePanel.add(messageField);
-
-        scrollPane.getViewport().add(textArea);
         add(controlPanel, BorderLayout.NORTH);
-        add(scrollPane, BorderLayout.CENTER);
-        add(messagePanel, BorderLayout.SOUTH);
+        add(textArea, BorderLayout.CENTER);
+        add(textField, BorderLayout.SOUTH);
 
-        setLocation(100, 100);
-        setSize(500, 400);
+        setSize(700,500);
+        setLocationRelativeTo(null);
         setVisible(true);
-//        setResizable(false);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
     }
 
-    private void parseActionPerformed() {
 
-        boolean parseSuccessful = braceChecker.parse(textArea.getText());
-        String message = braceChecker.getErrorMessage();
-        if (parseSuccessful) {
-            this.messageField.setForeground(Color.BLUE);
-            this.messageField.setText(braceChecker.noErrors);
-        } else {
-            this.messageField.setForeground(Color.RED);
-            this.messageField.setText(message);
+    private String getText(){
+        return textArea.getText();
+    }
+
+    private void parseActionPerformed(){
+        boolean parseSuccessful = braceChecker.isParseSuccessful(getText());
+        if(parseSuccessful){
+            textField.setForeground(Color.BLUE);
+            textField.setText("NO ERROR");
+        }else {
+            textField.setText(braceChecker.getErrorMessage());
         }
-
     }
 }

@@ -12,8 +12,8 @@ public class BraceCheckerItem {
         this.lineNumber = lineNumber;
         this.numberInLine = numberInLine;
         this.value = value;
-
     }
+    public BraceCheckerItem(){}
 
     public int getIndex() {
         return index;
@@ -49,9 +49,9 @@ public class BraceCheckerItem {
 
     @Override
     public String toString() {
-        return  "value=" + '\''+value +'\''+
-                ", index=" + index +
+        return "index=" + index +
                 ", lineNumber=" + lineNumber +
-                ", numberInLine=" + numberInLine;
+                ", numberInLine=" + numberInLine +
+                ", value=" + '\''+value+'\'';
     }
 }
