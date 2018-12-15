@@ -4,16 +4,14 @@ package auditorium.dynamicarray;
 public interface DynamicArray<T> {
 
     /**
-     * Returns the number of elements in this DynamicArray.
+     * Տվյալ մեթոդի օգնությամբ վերադաձնում ենք DynamicArray֊ի մեջ գտնվող էլեմենտների քանակը
      *
-     * @return the number of elements in this DynamicArray
      */
     int size();
 
     /**
-     * Returns <tt>true</tt> if this DynamicArray contains no elements.
+     * Տվյալ մեթոդը վերադաձնում է true եթե DynamicArray֊ը չի պարունակում ոչ մի էլեմենտ.
      *
-     * @return <tt>true</tt> if this DynamicArray contains no elements
      */
     boolean isEmpty();
 
@@ -22,6 +20,8 @@ public interface DynamicArray<T> {
      * More formally, returns <tt>true</tt> if and only if this DynamicArray contains
      * at least one element <tt>e</tt> such that
      * o==null ? get(i)==null : o.equals( get(i) ).
+     *
+     * Տվյալ մեթոդը վերադաձնում է true եթե DynamicArray֊ը պարունակում է նշված էլեմենտը
      *
      * @param o element whose presence in this DynamicArray is to be tested
      * @return <tt>true</tt> if this DynamicArray contains the specified element
