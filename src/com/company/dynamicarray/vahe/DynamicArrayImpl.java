@@ -1,4 +1,4 @@
-package com.company.dynamicarray;
+package com.company.dynamicarray.vahe;
 
 public class DynamicArrayImpl implements DynamicArray {
     private static final int DEFAULT_CAPACITY = 16;
