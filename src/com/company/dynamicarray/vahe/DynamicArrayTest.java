@@ -1,4 +1,4 @@
-package com.company.dynamicarray;
+package com.company.dynamicarray.vahe;
 
 public class DynamicArrayTest {
     public static void main(String[] args) {
