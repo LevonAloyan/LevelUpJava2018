@@ -90,9 +90,17 @@ public class DynamicArrayImpl implements DynamicArray {
         }else{
             for (int i=values.length-1; i >= 0; i--){
                 if (values[i]==0){
+<<<<<<< Updated upstream
                     values[i]=e;
                     size += 1;
                     return true;
+=======
+                    if(values[i-1]!=0) {
+                        values[i] = e;
+                        size += 1;
+                        return true;
+                    }
+>>>>>>> Stashed changes
                 }
             }
         }
@@ -123,11 +131,46 @@ public class DynamicArrayImpl implements DynamicArray {
 
     @Override
     public int removeByIndex(int index) {
+<<<<<<< Updated upstream
         return 0;
+=======
+        int currentElement = values[index];
+        if (index==values.length-1){
+            values[index]=0;
+            size -= 1;
+            return currentElement;
+
+        }else{
+            for (int i=index; i < values.length-1; i++) {
+                values[i]=values[i+1];
+            }
+            values[values.length-1]=0;
+            size -= 1;
+            return currentElement;
+        }
+>>>>>>> Stashed changes
     }
 
     @Override
     public boolean remove(int o) {
+<<<<<<< Updated upstream
+=======
+        if(values[values.length-1]==o){
+            values[values.length-1]=0;
+            size -= 1;
+            return true;
+        }else{
+            int i=0;
+            while (values[i]!=o && i < values.length-1){
+               i++;
+            }
+            for (int j=i; j < values.length-1; j++){
+               values[j]=values[j+1];
+            }
+            values[values.length-1]=0;
+            size -= 1;
+        }
+>>>>>>> Stashed changes
         return false;
     }
 
