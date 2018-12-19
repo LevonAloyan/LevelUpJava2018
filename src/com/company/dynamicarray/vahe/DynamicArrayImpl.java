@@ -161,8 +161,8 @@ public class DynamicArrayImpl implements DynamicArray {
             }
             values[values.length-1]=0;
             size -= 1;
+            return true;
         }
-        return false;
     }
 
     private void extend(int[] array) {
