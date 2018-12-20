@@ -1,4 +1,4 @@
-package com.company.dynamicarray;
+package com.company.dynamicarray.vahe;
 
 public class DynamicArrayImpl implements DynamicArray {
     private static final int DEFAULT_CAPACITY = 16;
@@ -89,15 +89,21 @@ public class DynamicArrayImpl implements DynamicArray {
 
         }else{
             for (int i=values.length-1; i >= 0; i--){
-                if (values[i]==0){
-                    values[i]=e;
+                if (values[i]==0) {
+                    values[i] = e;
                     size += 1;
                     return true;
                 }
+                    if(values[i-1]!=0) {
+                        values[i] = e;
+                        size += 1;
+                        return true;
+                    }
+                }
             }
+            return false;
         }
-        return false;
-    }
+
 
     @Override
     public void add(int index, int element) {
@@ -123,12 +129,40 @@ public class DynamicArrayImpl implements DynamicArray {
 
     @Override
     public int removeByIndex(int index) {
-        return 0;
+        int currentElement = values[index];
+        if (index==values.length-1){
+            values[index]=0;
+            size -= 1;
+            return currentElement;
+
+        }else{
+            for (int i=index; i < values.length-1; i++) {
+                values[i]=values[i+1];
+            }
+            values[values.length-1]=0;
+            size -= 1;
+            return currentElement;
+        }
     }
 
     @Override
     public boolean remove(int o) {
-        return false;
+        if(values[values.length-1]==o){
+            values[values.length-1]=0;
+            size -= 1;
+            return true;
+        }else{
+            int i=0;
+            while (values[i]!=o && i < values.length-1){
+               i++;
+            }
+            for (int j=i; j < values.length-1; j++){
+               values[j]=values[j+1];
+            }
+            values[values.length-1]=0;
+            size -= 1;
+            return true;
+        }
     }
 
     private void extend(int[] array) {

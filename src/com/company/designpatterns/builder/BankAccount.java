@@ -43,8 +43,7 @@ public class BankAccount {
 
     }
 
-    private BankAccount() {
-    }
+    private BankAccount() {}
 
     public static AccountBuilder builderAccount(){
         return new BankAccount().new AccountBuilder();
