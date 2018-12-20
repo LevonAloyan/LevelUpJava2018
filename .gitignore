@@ -8,5 +8,5 @@
 target/*
 */test-output/*
 out/*
-.idea/workspace.xml
 .idea/*
+.idea/workspace.xml
