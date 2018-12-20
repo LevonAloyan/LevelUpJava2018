@@ -58,21 +58,6 @@ public class BraceChecker {
                     break;
             }
         }
-
-<<<<<<< HEAD
-                if (lastElement == null) {
-                    errorMessage = "Closed with " + currentItem + "but not opened";
-                    parsSuccess = false;
-                } else {
-                    errorMessage = "Opened with " + lastElement + " but closed with " + currentItem + "'";
-                    parsSuccess = false;
-                }
-
-                if (!stack.isEmpty()) {
-                BraceCheckerItem element = (BraceCheckerItem) stack.pop();
-                errorMessage = "Opened with " + element + " but not closed";
-                parsSuccess = false;
-=======
         validate(inputText, i, lastElement, currentItem);
         return parsSuccess;
     }
@@ -89,7 +74,6 @@ public class BraceChecker {
             parsSuccess = false;
             BraceCheckerItem element = stack.pop();
             errorMessage = "Opened with " + element + " but not closed";
->>>>>>> f537eca60eaed2f0f7496a7343a64a9344ef454e
         }
     }
 
