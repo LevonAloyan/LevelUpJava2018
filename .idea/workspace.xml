@@ -2,37 +2,230 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b51921e0-e22b-421d-857d-f7fd3b654deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/com/company/bracechecker/BraceChecker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/com/company/bracechecker/BraceCheckerItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/com/company/bracechecker/Stack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/com/company/bracechecker/StackImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/calledbyvalue/CalledByValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/calledbyvalue/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/builder/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/factory/DbReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/factory/JsonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/factory/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/factory/ReaderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/factory/XmlReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/singleton/SingleObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/dynamicarray/DynamicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/dynamicarray/DynamicArrayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/overridedemo/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/recursion/RecursionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/auditorium/dynamicarray/DynamicArrayImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/auditorium/dynamicarray/DynamicArrayImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/auditorium/exception/FinallyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/auditorium/exception/FinallyDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/com/company/overridedemo/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/com/company/overridedemo/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/com/company/overridedemo/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/com/company/overridedemo/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/com/company/overridedemo/TestOverride.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/com/company/overridedemo/TestOverride.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auditorium/dynamicarray/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auditorium/dynamicarray/DynamicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/overload/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/overload/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/overridedemo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/overridedemo/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/overridedemo/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/overridedemo/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/overridedemo/TestOverride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/overridedemo/TestOverride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/bracechecker/BraceCheckerFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/bracechecker/BraceCheckerFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/bracechecker/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/bracechecker/StackImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/exceptions/ExceptionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/exceptions/NotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/exceptions/UserNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/figure/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/figure/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/figure/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/figure/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/figure/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/finaltest/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/finaltest/FinalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/finaltest/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/io/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/io/Coma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/io/CountDirFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/io/IoDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/io/MergSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/io/Numbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/io/ReadPrimAndObjects$Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/io/ReadPrimAndObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/io/ReadWriteObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/mathutil/RecursiaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/mathutil/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/recursion/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/stringdemo/StringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/armen/stringdemo/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/array/ArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/array/ArrayUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/array/ArrayUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/array/ControlStatements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/array/TwoDimentionalArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/bracechecker/BraceChecker$BracketItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/bracechecker/BraceChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/bracechecker/BraceCheckerFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/bracechecker/BraceCheckerFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/bracechecker/BraceCheckerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/bracechecker/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/bracechecker/StackImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/classintro/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/classintro/Aa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/classintro/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/classintro/HashCodeChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/classintro/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/classintro/RectangleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/classintro/figureexception/RectangleNegativeBorderException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/draft/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/draft/Draft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/draft/ReferenceAndPrimitiveTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/draft/StringLiteralDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/draft/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/draft/singletone/SingleTon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/draft/singletone/SingleTon$InstanceFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/draft/singletone/SingleTon$SomeInner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/draft/singletone/SingleTon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/draft/singletone/SingleToneTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/draft/singletone/SingleToneTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/draft/syncdemo/Caller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/draft/syncdemo/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/dynamicarray/DynamicArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/dynamicarray/DynamicArrayImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/dynamicarray/DynamicArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/dynamicarray/onlyforinteger/DynamicArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/dynamicarray/onlyforinteger/DynamicArrayImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/exception/ExceptionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/exception/FinallyDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/exception/Throwable_I$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/exception/Throwable_I$PrintStreamOrWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/exception/Throwable_I$SentinelHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/exception/Throwable_I$WrappedPrintStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/exception/Throwable_I$WrappedPrintWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/exception/Throwable_I.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/figure/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/figure/Figure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/figure/FigureCanvas$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/figure/FigureCanvas$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/figure/FigureCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/figure/FigureFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/figure/FigureFrame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/figure/FigureFrame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/figure/FigureFrame$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/figure/FigureFrame$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/figure/FigureFrame$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/figure/FigureFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/figure/FigureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/figure/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/inheritance/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/inheritance/AA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/inheritance/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/inheritance/BB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/inheritance/InheritanceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/inheritance/MethodOverrideDemo$C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/inheritance/MethodOverrideDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/interfaces/I.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/interfaces/IChild.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/interfaces/IChildImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/interfaces/InterfaceDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/interfaces/InterfaceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/io/FileDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/io/FileDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/io/FileDemo$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/io/FileDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/io/FileIOStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/io/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/io/PushBackDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/io/SerializationDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/lesson1/AnotherClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/lesson1/DataTypesDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/lesson1/SecondClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/Figure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureCanvas$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureCanvas$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureFrame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureFrame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/FigureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/levon_aloyan/figuress/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/Caller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/Callme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/Clicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/Deadlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/HiLowPriority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/InheritedThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/ProdCons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/Q.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/SomeClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/SomeRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/SynchDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/multithreading/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/notepad/Notepad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/operator/BitwiseOperatorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/p1/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/p1/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/p1/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/p1/Test11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/p2/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/recursion/HanoiTower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/taskstodo/ArrayShiftingTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/taskstodo/TextAnalyzer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/taskstodo/dynamicarray/DynamicArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/taskstodo/figureprinter/FigurePainter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/taskstodo/task_I/bracecheker/BraceChecker$BracketItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/taskstodo/task_I/bracecheker/BraceChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/taskstodo/task_I/bracecheker/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/taskstodo/task_II/util/ArrayUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/taskstodo/task_II/util/ArrayUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/taskstodo/task_III/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/taskstodo/task_III/StringUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/LabelKey$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/LabelKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/LanguageType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad$ActionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/Notepad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/UnderlineHighlighter$UnderlineHighlightPainter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/tsolak_harutyunyan/notepad/UnderlineHighlighter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/util/Spiral.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/auditorium/util/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/ArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/Bmw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/CoffeeCup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/Cup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/CupTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/Merserdes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/arrayutil/ArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/arrayutil/ArrayUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/bracechecker/BraceChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/bracechecker/BraceCheckerFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/bracechecker/BraceCheckerFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/bracechecker/BraceCheckerItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/bracechecker/BracecheckerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/bracechecker/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/bracechecker/StackImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/classintro/Figure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/classintro/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/classintro/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/classintro/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/git/GitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/homeworks/AnotherClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/homeworks/Aram/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/homeworks/Aram/SimpleGui$ButtonEventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/homeworks/Aram/SimpleGui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/homeworks/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/homeworks/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/homeworks/StringUtil1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/objectmethods/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/objectmethods/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/objectmethods/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/objectmethods/ObjectDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/objectmethods/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/overridedemo/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/overridedemo/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/overridedemo/TestOverride.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/polimorphism/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/polimorphism/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/polimorphism/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/polimorphism/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/staticDemo/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/staticDemo/CarTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/stringdemo/StringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/company/stringdemo/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/equalshashcode/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/equalshashcode/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/com/equalshashcode/Test.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,31 +238,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/dynamicarray/DynamicArrayImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/singleton/SingleObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/singleton/SingleObject.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-              <folding>
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -77,23 +265,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/singleton/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="165">
               <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/builder/BankAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#1028#1029#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1231#1232#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -101,8 +274,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/Reader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="60">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -110,12 +283,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/XmlReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="105">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#176#177#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -123,12 +292,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/JsonReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="60">
               <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-              <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -136,12 +301,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/DbReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="60">
               <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -149,7 +310,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
+            <state relative-caret-position="120">
               <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
@@ -158,8 +319,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/ReaderFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="135">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -190,7 +351,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/interfaceDemo/Worker.java" />
         <option value="$PROJECT_DIR$/src/com/company/interfaceDemo/Parent.java" />
         <option value="$PROJECT_DIR$/src/com/company/interfaceDemo/Child.java" />
         <option value="$PROJECT_DIR$/src/com/company/interfaceDemo/Driver.java" />
@@ -241,10 +401,11 @@
         <option value="$PROJECT_DIR$/src/com/company/dynamicarray/DynamicArrayImpl.java" />
         <option value="$PROJECT_DIR$/src/com/company/designpatterns/singleton/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/designpatterns/singleton/SingleObject.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="55" />
     <option name="y" value="25" />
     <option name="width" value="1865" />
@@ -267,7 +428,18 @@
             <path>
               <item name="LevelUpJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="LevelUpJava" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LevelUpJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LevelUpJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LevelUpJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LevelUpJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="auditorium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LevelUpJava" type="b2602c69:ProjectViewProjectNode" />
@@ -289,15 +461,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LevelUpJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LevelUpJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,7 +472,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544690091945" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../compare" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -451,10 +614,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="25" width="1865" height="1055" extended-state="6" />
-    <editor active="true" />
+    <frame x="55" y="25" width="1865" height="1055" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17921935" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18141836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -469,7 +631,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49917537" weight="0.32852387" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49972513" weight="0.36101884" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49972513" weight="0.35021552" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50082463" side_tool="true" weight="0.32852387" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -735,13 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/interfaceDemo/interfacesegregation/IAnimal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -908,92 +1063,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/JsonReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/XmlReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/DbReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/ReaderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/dynamicarray/DynamicArrayImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/singleton/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/singleton/SingleObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/singleton/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/XmlReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/JsonReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/DbReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/designpatterns/factory/ReaderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
