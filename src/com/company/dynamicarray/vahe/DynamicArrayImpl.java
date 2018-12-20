@@ -1,9 +1,11 @@
 package com.company.dynamicarray.vahe;
 
+import java.util.Arrays;
+
 public class DynamicArrayImpl implements DynamicArray {
     private static final int DEFAULT_CAPACITY = 16;
 
-    private int[] values;
+    private int [] values;
     private int size;
 
     public DynamicArrayImpl() {
@@ -28,17 +30,18 @@ public class DynamicArrayImpl implements DynamicArray {
 
     @Override
     public boolean contains(int element) {
-        for (int i=0; i < size; i++)
-            if (values[i]==element){
+        for (int i = 0; i < values.length; i++)
+            if (values[i] == element) {
                 return true;
             }
+
         return false;
     }
 
     @Override
     public int indexOf(int element) {
-        for (int i=0; i < values.length; i++){
-            if(values[i]==element){
+        for (int i = 0; i < values.length; i++) {
+            if (values[i] == element) {
                 return i;
             }
         }
@@ -47,7 +50,7 @@ public class DynamicArrayImpl implements DynamicArray {
 
     @Override
     public int lastIndexOf(int element) {
-        for (int i = values.length-1; i >= 0; i--) {
+        for (int i = values.length - 1; i >= 0; i--) {
             if (values[i] == element) {
                 return i;
             }
@@ -57,6 +60,10 @@ public class DynamicArrayImpl implements DynamicArray {
 
     @Override
     public int get(int index) {
+        if (index < 0 || index > values.length) {
+            System.out.println("index is out of bounds");
+            return -1;
+        }
         if (isEmpty()) {
             return -1;
         }
@@ -65,109 +72,83 @@ public class DynamicArrayImpl implements DynamicArray {
 
     @Override
     public int set(int index, int element) {
-        if (values[index] != 0){
-            int currentElement = values[index];
-            values[index]=element;
-            size += 1;
-            return currentElement;
+        if (index < 0 || index > values.length) {
+            System.out.println("index is out of bounds");
+            return -1;
         }
-        else
-        {
-            values[index]=element;
-            size += 1;
-            return 0;
-        }
+        int currentElement = values[index];
+        values[index] = element;
+        return currentElement;
     }
 
     @Override
     public boolean add(int e) {
-        if (values.length == size){
+        if (values.length == size) {
             extend(values);
-            values[size]=e;
-            size += 1;
-            return true;
-
-        }else{
-            for (int i=values.length-1; i >= 0; i--){
-                if (values[i]==0) {
-                    values[i] = e;
-                    size += 1;
-                    return true;
-                }
-                    if(values[i-1]!=0) {
-                        values[i] = e;
-                        size += 1;
-                        return true;
-                    }
-                }
-            }
-            return false;
         }
+        values[size++] = e;
+        return true;
+    }
 
 
     @Override
     public void add(int index, int element) {
-        int j=values.length-1;
-        if(values.length==size||values[values.length-1]!=0){
+        int j = values.length - 1;
+        if (values.length == size || values[values.length - 1] != 0) {
             extend(values);
-            for (int i=j; i >= index; i--){
-                values[i+1]=values[i];
+            for (int i = j; i >= index; i--) {
+                values[i + 1] = values[i];
             }
-            values[index]=element;
+            values[index] = element;
             size += 1;
-        }else if (index==values.length-1){
-            values[index]=element;
+        } else if (index == values.length - 1) {
+            values[index] = element;
             size += 1;
-        }else{
-           for (int i=j; i > index; i--){
-               values[i]=values[i-1];
-           }
-           values[index]=element;
-           size += 1;
+        } else {
+            for (int i = j; i > index; i--) {
+                values[i] = values[i - 1];
+            }
+            values[index] = element;
+            size += 1;
         }
     }
 
     @Override
     public int removeByIndex(int index) {
-        int currentElement = values[index];
-        if (index==values.length-1){
-            values[index]=0;
-            size -= 1;
-            return currentElement;
-
-        }else{
-            for (int i=index; i < values.length-1; i++) {
-                values[i]=values[i+1];
-            }
-            values[values.length-1]=0;
-            size -= 1;
-            return currentElement;
+        if (index < 0 || index > values.length) {
+            System.out.println("index is out of bounds");
+            return -1;
         }
+        int currentElement = values[index];
+        for (int i = index; i < values.length - 1; i++) {
+            values[i] = values[i + 1];
+        }
+        values[values.length - 1] = 0;
+        size--;
+
+        return currentElement;
     }
 
     @Override
     public boolean remove(int o) {
-        if(values[values.length-1]==o){
-            values[values.length-1]=0;
-            size -= 1;
-            return true;
-        }else{
-            int i=0;
-            while (values[i]!=o && i < values.length-1){
-               i++;
+        int index = -1;
+        for (int i = 0; i < values.length; i++) {
+            if (values[i] == o) {
+                index = i;
+                break;
             }
-            for (int j=i; j < values.length-1; j++){
-               values[j]=values[j+1];
-            }
-            values[values.length-1]=0;
-            size -= 1;
-            return true;
         }
+        removeByIndex(index);
+        return true;
     }
 
     private void extend(int[] array) {
-        int[] temp = new int[array.length + 5];
+        int[] temp = new int[(int) ((1.5 * array.length) + 1)];
         System.arraycopy(array, 0, temp, 0, array.length);
-        values=temp;
+        values = temp;
+    }
+
+    public String print() {
+        return Arrays.toString(values);
     }
 }
