@@ -75,4 +75,6 @@ public interface DynamicArray {
      * պեքտ է ջնջել տրված էլեմենտը մասիվի միջից (առաջին հանդիպած), հետո տրված ինդեքսից աջ գտնվող բոլոր էլեմենտները տեղափոխել ձախ մի քայլ․
      */
     public boolean remove(int o);
+
+    public String print();
 }
