@@ -10,8 +10,8 @@ public class Main {
         int [] bubbleSorted = sortingAlgorithm.bubbleSorting();
         System.out.println("Bubble sort " + "\n" + Arrays.toString(bubbleSorted));
 
-//        int [] selectionSorted = sortingAlgorithm.selectionSorting();
-//        System.out.println("Selection sort "+ "\n" + Arrays.toString(selectionSorted));
+        int [] selectionSorted = sortingAlgorithm.selectionSorting();
+        System.out.println("Selection sort "+ "\n" + Arrays.toString(selectionSorted));
 
 
     }
