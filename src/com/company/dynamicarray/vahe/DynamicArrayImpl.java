@@ -17,7 +17,6 @@ public class DynamicArrayImpl implements DynamicArray {
         this.size = 0;
     }
 
-
     @Override
     public int size() {
         return size;
