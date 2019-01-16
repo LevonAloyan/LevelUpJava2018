@@ -1,9 +1,10 @@
 package com.company.SortingAlgorithms;
+import java.util.Arrays;
 import java.util.Random;
 
 public class SortingAlgorithm {
 
-    private static final int DEFAULT_CAPACITY = 16;
+    private static final int DEFAULT_CAPACITY = 10;
     private static int [] array;
 
     public SortingAlgorithm() {
@@ -14,8 +15,10 @@ public class SortingAlgorithm {
         this.array = new int[capacity];
     }
 
+
     public static int [] bubbleSorting (){
         randomArray();
+        System.out.println(Arrays.toString(array));
         for (int i=array.length-1; i > 0; i--){
             for (int j=0; j < i; j++){
                 if (array[j] > array[j+1]){
@@ -42,9 +45,9 @@ public class SortingAlgorithm {
 
     private static int [] randomArray () {
         Random rand = new Random();
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < array.length; i++)
         {
-            array[i] = rand.nextInt(500);
+            array[i] = rand.nextInt(100);
         }
         return array;
     }
