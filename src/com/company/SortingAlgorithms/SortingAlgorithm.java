@@ -9,15 +9,16 @@ public class SortingAlgorithm {
 
     public SortingAlgorithm() {
         this(DEFAULT_CAPACITY);
+        randomArray();
     }
 
     public SortingAlgorithm(int capacity) {
         this.array = new int[capacity];
+        randomArray();
     }
 
 
     public static int [] bubbleSorting (){
-        randomArray();
         System.out.println(Arrays.toString(array));
         for (int i=array.length-1; i > 0; i--){
             for (int j=0; j < i; j++){
@@ -30,7 +31,6 @@ public class SortingAlgorithm {
     }
 
     public static int [] selectionSorting(){
-        randomArray();
         for (int i=0; i < array.length-2; i++){
             int swapIndex=i;
             for (int j=i+1; j < array.length; j++){
@@ -45,7 +45,7 @@ public class SortingAlgorithm {
 
     private static int [] randomArray () {
         Random rand = new Random();
-        for (int i = 0; i < array.length; i++)
+        for (int i = 0; i < 2; i++)
         {
             array[i] = rand.nextInt(100);
         }
