@@ -1,4 +1,4 @@
-package com.calledbyvalue;
+package com.company.calledbyvalue;
 
 public class CalledByValue {
 

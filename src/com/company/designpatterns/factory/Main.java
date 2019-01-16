@@ -3,7 +3,7 @@ package com.company.designpatterns.factory;
 public class Main {
 
     public static void main(String[] args) {
-        Reader reader =  ReaderFactory.getReader("JSON");
+        Reader reader = ReaderFactory.getReader("xml");
         reader.read();
 
     }
