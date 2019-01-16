@@ -1,4 +1,4 @@
-package com.equalshashcode;
+package com.company.equalshashcode;
 
 public class Test {
 

@@ -8,40 +8,6 @@ public class BankAccount {
     private double balance;
     private double interestRate;
 
-    public class AccountBuilder {
-
-
-        public AccountBuilder addAccountNumber(long accountNumber) {
-            BankAccount.this.accountNumber = accountNumber;
-            return this;
-        }
-
-        public AccountBuilder addOwner(String owner) {
-            BankAccount.this.owner = owner;
-            return this;
-        }
-
-        public AccountBuilder addBranch(String branch) {
-            BankAccount.this.branch = branch;
-            return this;
-        }
-
-        public AccountBuilder addBalance(double balance) {
-            BankAccount.this.balance = balance;
-            return this;
-        }
-
-        public AccountBuilder addInterestRate(double interestRate) {
-            BankAccount.this.interestRate = interestRate;
-            return this;
-        }
-
-        public BankAccount build() {
-            return BankAccount.this;
-        }
-
-
-    }
 
     private BankAccount() {}
 
@@ -81,5 +47,41 @@ public class BankAccount {
                 ", balance=" + balance +
                 ", interestRate=" + interestRate +
                 '}';
+    }
+
+
+    public class AccountBuilder {
+
+
+        public AccountBuilder addAccountNumber(long accountNumber) {
+            BankAccount.this.accountNumber = accountNumber;
+            return this;
+        }
+
+        public AccountBuilder addOwner(String owner) {
+            BankAccount.this.owner = owner;
+            return this;
+        }
+
+        public AccountBuilder addBranch(String branch) {
+            BankAccount.this.branch = branch;
+            return this;
+        }
+
+        public AccountBuilder addBalance(double balance) {
+            BankAccount.this.balance = balance;
+            return this;
+        }
+
+        public AccountBuilder addInterestRate(double interestRate) {
+            BankAccount.this.interestRate = interestRate;
+            return this;
+        }
+
+        public BankAccount build() {
+            return BankAccount.this;
+        }
+
+
     }
 }

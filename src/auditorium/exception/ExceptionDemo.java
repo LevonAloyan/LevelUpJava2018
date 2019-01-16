@@ -1,6 +1,9 @@
 package auditorium.exception;
 
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 public class ExceptionDemo {
     int a;
 
@@ -9,7 +12,11 @@ public class ExceptionDemo {
         this.a = a;
     }
 
-    public static void main(String[] args)  /* throwsThrowable_I */ {
+    public static void main(String[] args) throws FileNotFoundException  /* throwsThrowable_I */ {
+
+
+        FileInputStream fileInputStream = new FileInputStream("/home/levon/text.txt");
+
         ExceptionDemo exceptionDemo = new ExceptionDemo(2);
         try {
 //            finallyDemo.method1();
