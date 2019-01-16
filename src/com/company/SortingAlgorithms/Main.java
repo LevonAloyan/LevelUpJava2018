@@ -6,11 +6,13 @@ public class Main {
     public static void main(String[] args) {
 
 
-        SortingAlgorithm sortingAlgorithm = new SortingAlgorithm();
+        SortingAlgorithm sortingAlgorithm = new SortingAlgorithm(5);
         int [] bubbleSorted = sortingAlgorithm.bubbleSorting();
-        int [] selectionSorted = sortingAlgorithm.selectionSorting();
-        System.out.println("Selection sorting "+ "\n" + Arrays.toString(selectionSorted));
-        System.out.println("Bubble sorting " + "\n" + Arrays.toString(bubbleSorted));
+        System.out.println("Bubble sort " + "\n" + Arrays.toString(bubbleSorted));
+
+//        int [] selectionSorted = sortingAlgorithm.selectionSorting();
+//        System.out.println("Selection sort "+ "\n" + Arrays.toString(selectionSorted));
+
 
     }
 }
