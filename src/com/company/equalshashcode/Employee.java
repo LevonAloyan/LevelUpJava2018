@@ -1,4 +1,4 @@
-package com.equalshashcode;
+package com.company.equalshashcode;
 
 import java.util.Objects;
 

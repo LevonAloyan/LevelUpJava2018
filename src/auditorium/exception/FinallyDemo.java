@@ -27,7 +27,7 @@ public class FinallyDemo {
 
     }
 
-    static String someMethod (DynamicArray<String> tokens) throws RuntimeException {
+    static String someMethod (DynamicArray<String> tokens)  {
         String result = "";
         if(tokens == null){
 //            throw
