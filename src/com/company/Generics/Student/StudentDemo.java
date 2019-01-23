@@ -9,15 +9,15 @@ public class StudentDemo {
         Student student1 = new Student();
         Student student2 = new Student();
 
-        student.setId(1);
+        student.setId(5);
         student1.setId(3);
-        student2.setId(5);
+        student2.setId(1);
         student.setName("Vahe");
         student1.setName("Miko");
         student2.setName("Levon");
         student.setLastName("Mikayelyan");
-        student.setLastName("Adamyan");
-        student.setLastName("Hakobyan");
+        student1.setLastName("Adamyan");
+        student2.setLastName("Hakobyan");
         student.setGrade(30);
         student1.setGrade(40);
         student2.setGrade(50);

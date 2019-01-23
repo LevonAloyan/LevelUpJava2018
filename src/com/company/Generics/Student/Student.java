@@ -1,13 +1,11 @@
 package com.company.Generics.Student;
 
-import java.util.Comparator;
+public class Student implements Comparable<Student>  {
 
-public class Student  {
-
-    private int id;
+    private Integer id;
     private String name;
     private String lastName;
-    private int grade;
+    private Integer grade;
 
     public Student (){};
 
@@ -43,12 +41,9 @@ public class Student  {
         this.grade = grade;
     }
 
-    public int compare(Student o1) {
-        int result;
-        if ((result = this.id - o1.id) > 0){
-            return result;
-        }
-        return 0;
+    @Override
+    public int compareTo(Student o) {
+        return this.id.compareTo(o.id);
     }
 
     @Override
