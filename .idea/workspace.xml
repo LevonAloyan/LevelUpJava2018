@@ -166,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="47" />
     <option name="y" value="25" />
     <option name="width" value="1873" />
@@ -309,10 +309,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.AlgorithmsUtil" />
-      <item itemvalue="Application.SetDemo" />
       <item itemvalue="Application.ListDemo" />
-      <item itemvalue="Application.QueueDemo" />
       <item itemvalue="Application.MapDemo" />
+      <item itemvalue="Application.QueueDemo" />
+      <item itemvalue="Application.SetDemo" />
     </list>
     <recent_temporary>
       <list>
