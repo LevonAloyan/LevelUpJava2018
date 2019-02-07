@@ -49,12 +49,12 @@ public class BraceCheckerFrame extends JFrame {
     }
 
     private void parseActionPerformed(){
-        boolean parseSuccessful = braceChecker.isParseSuccessful(getText());
-        if(parseSuccessful){
-            textField.setForeground(Color.BLUE);
-            textField.setText("NO ERROR");
-        }else {
-            textField.setText(braceChecker.getErrorMessage());
-        }
+//        boolean parseSuccessful = braceChecker.isParseSuccessful(getText());
+//        if(parseSuccessful){
+//            textField.setForeground(Color.BLUE);
+//            textField.setText("NO ERROR");
+//        }else {
+//            textField.setText(braceChecker.getErrorMessage());
+//        }
     }
 }

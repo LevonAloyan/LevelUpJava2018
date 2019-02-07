@@ -15,33 +15,42 @@ public class MapDemo {
     map.put("Aram", 22);
     map.put("Gagik", 22);
     map.put("Ash", 21);
-    map.put(null, 52);
 
-    Integer aNull = map.get(null);
-    System.out.println("Null: "+ aNull);
-    Integer ash1 = map.put("Ash", 28);
 
-    System.out.println(ash1);
 
-    Integer ash = map.get("Ash");
-    System.out.println(ash);
+//    Integer ash1 = map.put("Ash", 21);
+//    Integer a = map.put("Ash", 222);
+//
+//    System.out.println("a value is: "+ a);
+//    System.out.println("ash1 value is: "+ ash1);
+//
+//    Integer ash = map.get("Ash");
+//    System.out.println(ash);
 
-    System.out.println("Keys");
 
-    for (String s : map.keySet()) {
-      System.out.println(s);
-    }
-    System.out.println();
-    System.out.println("values");
-    for (Integer i : map.values()){
-      System.out.println(i);
-    }
-    System.out.println();
-    System.out.println("entry Set");
-    Set<Entry<String, Integer>> entries = map.entrySet();
-    for (Entry<String, Integer> entry : entries) {
-      System.out.println(entry);
-    }
+
+//    Integer ash1 = map.put("Ash", 28);
+//
+//    System.out.println(ash1);
+
+
+
+//    System.out.println("Keys");
+//
+//    for (String s : map.keySet()) {
+//      System.out.println(s);
+//    }
+//    System.out.println();
+//    System.out.println("values");
+//    for (Integer i : map.values()){
+//      System.out.println(i);
+//    }
+//    System.out.println();
+//    System.out.println("entry Set");
+//    Set<Entry<String, Integer>> entries = map.entrySet();
+//    for (Entry<String, Integer> entry : entries) {
+//      System.out.println(entry);
+//    }
 
   }
 

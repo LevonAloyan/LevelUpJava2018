@@ -1,7 +1,5 @@
 package com.company.codeWars;
 
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
 
 public class Line {
 
