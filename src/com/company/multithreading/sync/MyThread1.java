@@ -13,6 +13,7 @@ public class MyThread1 extends Thread {
 
   @Override
   public void run() {
+
     System.out.println("in the Thread1 run method");
     System.out.println(name);
     car.method2();

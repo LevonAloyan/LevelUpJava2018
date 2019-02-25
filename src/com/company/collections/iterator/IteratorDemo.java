@@ -10,15 +10,15 @@ public class IteratorDemo {
 
     List<String> list = new ArrayList<>();
     list.add("Gagik");
-    list.add("Levon");
     list.add("Liana");
     list.add("Aram");
     list.add("Ashot");
     list.add("Vahe");
+    list.add("Levon");
 
 //    for (String s : list) {
 //      if (s.equals("Levon")){
-//        list.add("Nad");
+//        list.remove("Levon");
 //      }
 //    }
 

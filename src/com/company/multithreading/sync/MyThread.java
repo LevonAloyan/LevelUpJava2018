@@ -15,6 +15,6 @@ public class MyThread extends Thread {
   public void run() {
     System.out.println("in the Thread run method");
     System.out.println(name);
-    car.method1();
+    car.method2();
   }
 }

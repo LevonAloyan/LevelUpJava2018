@@ -1,5 +1,7 @@
 package com.company.multithreading;
 
+import java.io.IOException;
+
 public class Main {
 
   public static void main(String[] args) throws InterruptedException {
@@ -56,6 +58,13 @@ public class Main {
     System.out.println("Thread Three is alive: "
         + t3.getThread().isAlive());
     System.out.println("Main thread exiting.");
+
+    try {
+      System.out.println("Inside try-block");
+      throw new IOException();
+    }
+    catch(IOException e) { }
+
 
   }
 }

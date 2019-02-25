@@ -3,6 +3,33 @@ package com.company.designpatterns.builder;
 public class User {
 
   private String name;
+  private String surname;
+  private int age;
+  private int id;
+  private String race;
+  private String pet;
+  private Gender gender;
+  private boolean hasCar;
+  private String address;
+  private String email;
+  private String password;
+  private String phone;
+
+  public User(String name, String surname, int age, int id, String race, String pet,
+      Gender gender, boolean hasCar, String address, String email, String password, String phone) {
+    this.name = name;
+    this.surname = surname;
+    this.age = age;
+    this.id = id;
+    this.race = race;
+    this.pet = pet;
+    this.gender = gender;
+    this.hasCar = hasCar;
+    this.address = address;
+    this.email = email;
+    this.password = password;
+    this.phone = phone;
+  }
 
   public String getName() {
     return name;
@@ -92,33 +119,7 @@ public class User {
     this.phone = phone;
   }
 
-  private String surname;
-  private int age;
-  private int id;
-  private String race;
-  private String pet;
-  private Gender gender;
-  private boolean hasCar;
-  private String address;
-  private String email;
-  private String password;
-  private String phone;
 
-  public User(String name, String surname, int age, int id, String race, String pet,
-      Gender gender, boolean hasCar, String address, String email, String password, String phone) {
-    this.name = name;
-    this.surname = surname;
-    this.age = age;
-    this.id = id;
-    this.race = race;
-    this.pet = pet;
-    this.gender = gender;
-    this.hasCar = hasCar;
-    this.address = address;
-    this.email = email;
-    this.password = password;
-    this.phone = phone;
-  }
 
   public String getSurname() {
     return surname;
