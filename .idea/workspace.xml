@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a12293-c8a0-4f01-8e17-0e4304f24a5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/interfaceDemo/preventmethodwork/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/interfaceDemo/preventmethodwork/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/interfaceDemo/preventmethodwork/BI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/interfaceDemo/preventmethodwork/I.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/interfaceDemo/preventmethodwork/IA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/interfaceDemo/preventmethodwork/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/io/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/io/IODemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/io/PreventSerializationOnChildClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/io/ReadAndWriteCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/io/ReadAndWriteFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/io/ReadAndWriteFilesWithBuffers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/io/ReadAndWriteObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/io/ReadAndWritePrimitiveTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/io/ReadImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/io/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/io/generatenumbers/GeneratePhoneNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/interfaceDemo/interfacesegregation/I.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/interfaceDemo/interfacesegregation/I.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="/test/LevelUpJava/" />
@@ -36,22 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/io/IODemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/io/ReadAndWriteFiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,17 +32,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/io/ReadAndWriteFilesWithBuffers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="390">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/io/generatenumbers/GeneratePhoneNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/io/generatenumbers/GeneratePhoneNumbers.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/io/GeneratePhoneNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="300">
+              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+              <folding>
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/Writer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1950">
+              <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -80,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/io/PreventSerializationOnChildClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -89,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/io/ReadAndWriteCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="240">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,16 +99,7 @@
         <entry file="file://$PROJECT_DIR$/number2.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/number.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8986624" selection-start-column="8986624" selection-end-column="8986624" />
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -124,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/io/ReadAndWriteObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
+            <state relative-caret-position="585">
               <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -166,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/multithreading/waitnotify/PC.java" />
         <option value="$PROJECT_DIR$/src/com/company/wrapper/ValueOfTests.java" />
         <option value="$PROJECT_DIR$/src/com/company/collections/iterator/IteratorDemo.java" />
         <option value="$PROJECT_DIR$/src/com/company/designpatterns/builder/User.java" />
@@ -217,20 +199,22 @@
         <option value="$PROJECT_DIR$/src/com/company/io/ReadAndWriteFilesWithBuffers.java" />
         <option value="$PROJECT_DIR$/src/com/company/interfaceDemo/preventmethodwork/Test.java" />
         <option value="$PROJECT_DIR$/src/com/company/io/generatenumbers/GeneratePhoneNumbers.java" />
+        <option value="$PROJECT_DIR$/src/com/company/io/GeneratePhoneNumbers.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="-2" />
-    <option name="width" value="1920" />
-    <option name="height" value="1082" />
+    <option name="x" value="47" />
+    <option name="y" value="25" />
+    <option name="width" value="1873" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,27 +275,17 @@
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LevelUpJava2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LevelUpJava2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="generatenumbers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551439954140" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551702292858" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../contract-definitions" />
     <property name="project.structure.last.edited" value="Project" />
@@ -326,6 +300,7 @@
       <recent name="com.company.multithreading.sync" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/company/io" />
       <recent name="$PROJECT_DIR$/src/com/company/multithreading" />
     </key>
   </component>
@@ -341,13 +316,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GeneratePhoneNumbers">
-    <configuration name="GeneratePhoneNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.io.generatenumbers.GeneratePhoneNumbers" />
+  <component name="RunManager" selected="Application.GeneratePhoneNumbers (1)">
+    <configuration name="GeneratePhoneNumbers (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.io.GeneratePhoneNumbers" />
       <module name="LevelUpJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.io.generatenumbers.*" />
+          <option name="PATTERN" value="com.company.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,12 +330,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreventSerializationOnChildClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.io.PreventSerializationOnChildClass" />
+    <configuration name="GeneratePhoneNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.io.generatenumbers.GeneratePhoneNumbers" />
       <module name="LevelUpJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.io.*" />
+          <option name="PATTERN" value="com.company.io.generatenumbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,18 +384,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ReadAndWriteObject" />
-      <item itemvalue="Application.PreventSerializationOnChildClass" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.GeneratePhoneNumbers" />
       <item itemvalue="Application.ReadAndWriteFilesWithBuffers" />
+      <item itemvalue="Application.GeneratePhoneNumbers (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GeneratePhoneNumbers (1)" />
         <item itemvalue="Application.GeneratePhoneNumbers" />
         <item itemvalue="Application.ReadAndWriteFilesWithBuffers" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ReadAndWriteObject" />
-        <item itemvalue="Application.PreventSerializationOnChildClass" />
       </list>
     </recent_temporary>
   </component>
@@ -435,12 +410,13 @@
       <option name="presentableId" value="Default" />
       <updated>1547625449214</updated>
       <workItem from="1551269630009" duration="898000" />
-      <workItem from="1551333713978" duration="11901000" />
+      <workItem from="1551333713978" duration="12713000" />
+      <workItem from="1551686571048" duration="1122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12799000" />
+    <option name="totallyTimeSpent" value="14733000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -452,10 +428,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="47" y="25" width="1873" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21824974" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22386426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -464,14 +440,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3922414" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3917869" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39844617" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32852387" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32852387" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33740288" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32852387" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3275862" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32852387" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -546,18 +522,6 @@
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/io/generatenumbers/GeneratePhoneNumbers.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/io/generatenumbers/GeneratePhoneNumbers.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -571,20 +535,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/test/Denominator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/exception/ExceptionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/exception/ExceptionDemoForAram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -903,43 +853,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/number2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/number.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/io/ReadAndWriteObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/io/ReadAndWriteFilesWithBuffers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/io/PreventSerializationOnChildClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/io/IODemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="270">
           <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -949,18 +865,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/io/ReadAndWriteFiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/io/ReadAndWriteFilesWithBuffers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/io/PreventSerializationOnChildClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/io/ReadAndWriteCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="240">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/number.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/number2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/io/ReadAndWriteObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -969,8 +926,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/io/generatenumbers/GeneratePhoneNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/io/GeneratePhoneNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
